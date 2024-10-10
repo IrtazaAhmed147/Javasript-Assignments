@@ -168,7 +168,7 @@
     function check() {
 
         let Arr = ["cake", "apple pie", "cookie", "chips", "patties"]
-        let userInput = document.getElementById("input").value
+        let userInput = prompt('Enter to check the item is available or not')
         let lowerStr = userInput.toLowerCase()
         // let userInput = prompt("enter a name")
 
@@ -178,12 +178,12 @@
         if (index !== -1) {
 
             let itemFound = `${userInput} is found in list`
-            document.getElementById("output").innerHTML = itemFound
+            document.write(itemFound)
 
 
         } else {
             let itemNotFound = `${userInput} is not found in list`
-            document.getElementById("output").innerHTML = itemNotFound
+            document.write(itemNotFound)
         }
     }
 
@@ -245,9 +245,9 @@
 
 
     function btn() {
-        let userInput = document.getElementById("lastChar").value;
+        let userInput = prompt('Enter to check last character of your word ');
         let lastChar = userInput.charAt(userInput.length - 1)
-        document.getElementById("lastIndex").innerHTML = `last index of your input is ${lastChar}`
+        document.write(`last index of your input is ${lastChar}`)
     }
 
 }
@@ -255,6 +255,7 @@
 // answer no 18
 
 {
+    document.write(`The quick brown fox jumps over the lazy dog`)
     let string = "The quick brown fox jumps over the lazy dog"
 
 
@@ -272,6 +273,6 @@
 
     }
 
-    document.getElementById("paragraph").innerHTML = `the occurence of "the" in this sentence is ${count}`
+    document.write(`the occurence of "the" in this sentence is ${count}`)
 
 }

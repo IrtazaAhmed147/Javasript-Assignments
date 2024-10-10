@@ -60,7 +60,7 @@ let userInput = prompt("write a single character")
 {
     let string = prompt("give one alphabet to check wether the alphabet is vowel or not ");
 
-     if(String.length != 1) {
+     if(string.length != 1) {
          alert("put only one alphabet")
      }
 

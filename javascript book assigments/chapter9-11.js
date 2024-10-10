@@ -55,10 +55,10 @@ else {
 // answer no 5
 
 {
-var a = 4;
-if (++a === 5) {
-    alert("given condition for variable a is true");
-}
+    var a = 4;
+    if (++a === 5) {
+        alert("given condition for variable a is true");
+    }
 
     // a. true
     var b = 82;
@@ -85,27 +85,27 @@ if (++a === 5) {
     // condition 2 is true
     // condition 4 is true
 
-// d.
-var materialCost = 20000;
-var laborCost = 2000;
-var totalCost = materialCost + laborCost;
-if (totalCost === laborCost + materialCost) {
-    alert("The cost equals");
-}
+    // d.
+    var materialCost = 20000;
+    var laborCost = 2000;
+    var totalCost = materialCost + laborCost;
+    if (totalCost === laborCost + materialCost) {
+        alert("The cost equals");
+    }
 
 
-// e.
-if (true) {
-    alert("True");
-}
-if (false) {
-    alert("False");
-}
+    // e.
+    if (true) {
+        alert("True");
+    }
+    if (false) {
+        alert("False");
+    }
 
-// f. true
-if ("car" < "cat") {
-    alert("car is smaller than cat");
-}
+    // f. true
+    if ("car" < "cat") {
+        alert("car is smaller than cat");
+    }
 
 
 }
@@ -120,24 +120,10 @@ if ("car" < "cat") {
     let sub2 = parseInt(prompt("write the number for subject2"))
     let sub3 = parseInt(prompt("write the number for subject3"))
 
-    // while (sub1 >= 100) {
-    //     alert("give the number less than 100")
-    //     sub1 = parseInt(prompt("write the number for subject1"))
-    // }
-
-    // while (sub2 >= 100) {
-    //     alert("give the number less than 100")
-    //     sub2 = parseInt(prompt("write the number for subject2"))
-    // }
-
-    // while (sub3 >= 100) {
-    //     alert("give the number less than 100")
-    //     sub3 = parseInt(prompt("write the number for subject3"))
-    // }
-
+    
     let totalObtMarks = sub1 + sub2 + sub3;
 
-    let percentage = (totalObtMarks/totalMark) * 100;
+    let percentage = (totalObtMarks / totalMark) * 100;
 
     let grade = ""
 
@@ -151,12 +137,12 @@ if ("car" < "cat") {
         grade = "A"
         remark = "Good"
     }
-     else if (percentage >= 60) {
+    else if (percentage >= 60) {
         grade = "B"
         remark = "You need to improve"
 
     }
-     else if (percentage < 60) {
+    else if (percentage < 60) {
         grade = "Fail"
         remark = "Sorry"
 
@@ -172,7 +158,7 @@ if ("car" < "cat") {
 
 {
     let secretNumber = 1;
-   
+
 
 
     let guessNumber = parseInt(prompt("Guess the number between 1-10"))
@@ -224,18 +210,18 @@ if ("car" < "cat") {
 // answer no 10
 
 {
-    let T = parseInt(prompt("Enter Temperature" ))
+    let T = parseInt(prompt("Enter Temperature"))
 
-    if(T > 40) {
+    if (T > 40) {
         alert("“It is too hot outside")
     }
-    else if(T > 30) {
+    else if (T > 30) {
         alert("The Weather today is Normal.")
     }
-    else if(T > 20) {
+    else if (T > 20) {
         alert("Today's Weather is cool.")
     }
-    else if(T > 10) {
+    else if (T > 10) {
         alert("OMG! Today's weather is so Cool.")
     }
 }
